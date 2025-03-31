@@ -1,0 +1,9 @@
+/* Styling for the div container */
+.container_1 {
+   color:  green;
+  background-color: #2332a9; /* Light Gray Background */
+  padding: 20px;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif; /* Apply custom font to the container */
+}
+

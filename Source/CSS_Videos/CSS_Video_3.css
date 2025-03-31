@@ -1,0 +1,15 @@
+.container_1, .container_2, .container_3, .container_4 {
+  border: 2px solid black; /* Adds a black border */
+  padding: 10px; /* Adds some padding inside the container */
+  margin: 10px 0; /* Adds space between containers */
+  border-radius: 8px; /* Optional: Adds rounded corners to the border */
+}
+
+
+h2 {
+  margin: 0 0 10px 0; /* Adds some space below the title */
+}
+
+p {
+  margin: 5px 0; /* Adds space between each paragraph */
+}

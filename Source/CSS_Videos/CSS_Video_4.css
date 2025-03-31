@@ -1,0 +1,21 @@
+body {
+  background-color: lightcyan;
+}
+
+.container_1
+{
+  color: darkblue;
+}
+
+.container_2
+{
+  
+  color: white;  
+  border: 2px solid black; /* Adds a black border */
+  padding: 10px; /* Adds some padding inside the container */
+  margin: 10px 0; /* Adds space between containers */
+  border-radius: 8px; /* Optional: Adds rounded corners to the border */
+  background: linear-gradient(to bottom, #00008B, #000000);
+
+}
+

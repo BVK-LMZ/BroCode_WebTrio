@@ -1,0 +1,47 @@
+<!-- various kinds of ways to write CSS -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Types Tutorial</title>
+
+    <!-- External CSS (linked from separate file) -->
+    <link rel="stylesheet" href="CSS_Video_1.css">
+
+    <!-- Internal CSS (inside the HTML file) -->
+    <style>
+        /* This is internal CSS */
+        .internal-example {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+    <a href="../../index.html">Back To Main Menu </a>
+</head>
+<body>
+    <h1>CSS Types for Beginners</h1>
+
+    <h2>1. External CSS</h2>
+    <p>External CSS is stored in a separate file and linked to HTML.</p>
+    
+    <div class="external-example">
+        This box is styled with external CSS from CSS_Video_1.css
+    </div>
+
+    <h2>2. Internal CSS</h2>
+    <p>Internal CSS is written inside the HTML file in the head section.</p>
+    
+    <div class="internal-example">
+        This box is styled with internal CSS
+    </div>
+
+    <h2>3. Inline CSS</h2>
+    <p>Inline CSS is applied directly to an HTML element.</p>
+    
+    <div style="background-color: green; color: white; padding: 10px; margin: 10px;">
+        This box is styled with inline CSS
+    </div>
+</body>
+</html>

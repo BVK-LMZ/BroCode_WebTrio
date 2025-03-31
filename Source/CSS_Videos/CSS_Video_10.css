@@ -1,0 +1,8 @@
+.flame-text {
+    font-size: 40px;
+    color: black;
+    text-shadow: 
+        0 0 5px yellow,
+        0 0 10px red,
+        0 0 30px orange;
+}
